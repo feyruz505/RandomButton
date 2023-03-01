@@ -1,0 +1,73 @@
+﻿<Window x:Class="RandomButton.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RandomButton"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="White">
+        <Button             
+                x:Name="btn1"
+                MouseRightButtonDown="Button_MouseRightButtonDown"
+                Content="Button1"                
+                Click="Button_Click"
+                FontSize="20"
+                HorizontalAlignment="Left"
+                Margin="44,37,0,0" 
+                VerticalAlignment="Top" 
+                Height="72"                 
+                Width="111" RenderTransformOrigin="0.5,0.5"/>
+        <Button 
+            x:Name="btn2" 
+            MouseRightButtonDown="Button_MouseRightButtonDown"
+            Content="Button2"
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Margin="0,37,0,0" 
+            VerticalAlignment="Top" 
+            Height="72"                 
+            Width="112" RenderTransformOrigin="0.5,0.5" Click="Button_Click_1"/>
+        <Button 
+            x:Name="btn3" 
+            MouseRightButtonDown="Button_MouseRightButtonDown"
+            Content="Button3"
+            FontSize="20"
+            HorizontalAlignment="Left"
+            Margin="622,37,0,0" 
+            VerticalAlignment="Top" 
+            Height="72"                 
+            Width="112" RenderTransformOrigin="0.5,0.5" Click="Button_Click_2"/>
+        <Button 
+            x:Name="btn4" 
+            MouseRightButtonDown="Button_MouseRightButtonDown"
+            Content="Button4"
+            FontSize="20"
+            HorizontalAlignment="Left"
+            Margin="44,259,0,0" 
+            VerticalAlignment="Top" 
+            Height="72"                 
+            Width="111" RenderTransformOrigin="1.558,0.431" Click="Button_Click_3"/>
+        <Button 
+            x:Name="btn5" 
+            MouseRightButtonDown="Button_MouseRightButtonDown"
+            Content="Button5"
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Margin="0,259,0,0" 
+            VerticalAlignment="Top" 
+            Height="72"                 
+            Width="112" RenderTransformOrigin="1.558,0.431" Click="Button_Click_4"/>
+        <Button 
+            MouseRightButtonDown="Button_MouseRightButtonDown"
+            x:Name="btn6" 
+            Content="Button6"
+            FontSize="20"
+            HorizontalAlignment="Left"
+            Margin="623,259,0,0" 
+            VerticalAlignment="Top" 
+            Height="72"                 
+            Width="111" RenderTransformOrigin="1.558,0.431" Click="Button_Click_5"/>
+
+    </Grid>
+</Window>
